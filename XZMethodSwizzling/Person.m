@@ -9,5 +9,11 @@
 #import "Person.h"
 
 @implementation Person
++ (void)go {
+    NSLog(@"Go!");
+}
 
++ (void)stop {
+    NSLog(@"Stop!");
+}
 @end

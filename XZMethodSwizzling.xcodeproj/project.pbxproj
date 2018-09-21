@@ -13,6 +13,11 @@
 		9BC5CE9D21539526000166DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BC5CE9C21539526000166DD /* Assets.xcassets */; };
 		9BC5CEA021539526000166DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BC5CE9E21539526000166DD /* LaunchScreen.storyboard */; };
 		9BC5CEA321539526000166DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC5CEA221539526000166DD /* main.m */; };
+		9BC5CEAB21539C3C000166DD /* UIViewController+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC5CEAA21539C3C000166DD /* UIViewController+Swizzling.m */; };
+		9BC5CEAE21539EFD000166DD /* XZSwizzlingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC5CEAD21539EFD000166DD /* XZSwizzlingViewController.m */; };
+		9BC5CEB12153A1D7000166DD /* NSArray+XZArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC5CEB02153A1D7000166DD /* NSArray+XZArray.m */; };
+		9BC5CEB42153B279000166DD /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC5CEB32153B279000166DD /* Person.m */; };
+		9BC5CEB72153B2B7000166DD /* Programmer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC5CEB62153B2B7000166DD /* Programmer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		9BC5CE9F21539526000166DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BC5CEA121539526000166DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BC5CEA221539526000166DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BC5CEA921539C3C000166DD /* UIViewController+Swizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Swizzling.h"; sourceTree = "<group>"; };
+		9BC5CEAA21539C3C000166DD /* UIViewController+Swizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Swizzling.m"; sourceTree = "<group>"; };
+		9BC5CEAC21539EFD000166DD /* XZSwizzlingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZSwizzlingViewController.h; sourceTree = "<group>"; };
+		9BC5CEAD21539EFD000166DD /* XZSwizzlingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZSwizzlingViewController.m; sourceTree = "<group>"; };
+		9BC5CEAF2153A1D7000166DD /* NSArray+XZArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+XZArray.h"; sourceTree = "<group>"; };
+		9BC5CEB02153A1D7000166DD /* NSArray+XZArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XZArray.m"; sourceTree = "<group>"; };
+		9BC5CEB22153B279000166DD /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		9BC5CEB32153B279000166DD /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		9BC5CEB52153B2B7000166DD /* Programmer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Programmer.h; sourceTree = "<group>"; };
+		9BC5CEB62153B2B7000166DD /* Programmer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Programmer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +77,16 @@
 				9BC5CE942153951A000166DD /* AppDelegate.m */,
 				9BC5CE962153951A000166DD /* ViewController.h */,
 				9BC5CE972153951A000166DD /* ViewController.m */,
+				9BC5CEAC21539EFD000166DD /* XZSwizzlingViewController.h */,
+				9BC5CEAD21539EFD000166DD /* XZSwizzlingViewController.m */,
+				9BC5CEA921539C3C000166DD /* UIViewController+Swizzling.h */,
+				9BC5CEAA21539C3C000166DD /* UIViewController+Swizzling.m */,
+				9BC5CEAF2153A1D7000166DD /* NSArray+XZArray.h */,
+				9BC5CEB02153A1D7000166DD /* NSArray+XZArray.m */,
+				9BC5CEB22153B279000166DD /* Person.h */,
+				9BC5CEB32153B279000166DD /* Person.m */,
+				9BC5CEB52153B2B7000166DD /* Programmer.h */,
+				9BC5CEB62153B2B7000166DD /* Programmer.m */,
 				9BC5CE992153951A000166DD /* Main.storyboard */,
 				9BC5CE9C21539526000166DD /* Assets.xcassets */,
 				9BC5CE9E21539526000166DD /* LaunchScreen.storyboard */,
@@ -141,6 +166,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BC5CEAB21539C3C000166DD /* UIViewController+Swizzling.m in Sources */,
+				9BC5CEAE21539EFD000166DD /* XZSwizzlingViewController.m in Sources */,
+				9BC5CEB42153B279000166DD /* Person.m in Sources */,
+				9BC5CEB72153B2B7000166DD /* Programmer.m in Sources */,
+				9BC5CEB12153A1D7000166DD /* NSArray+XZArray.m in Sources */,
 				9BC5CE982153951A000166DD /* ViewController.m in Sources */,
 				9BC5CEA321539526000166DD /* main.m in Sources */,
 				9BC5CE952153951A000166DD /* AppDelegate.m in Sources */,

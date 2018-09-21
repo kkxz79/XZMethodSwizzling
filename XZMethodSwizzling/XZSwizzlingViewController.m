@@ -7,6 +7,8 @@
 //
 
 #import "XZSwizzlingViewController.h"
+#import "NSArray+XZArray.h"
+#import "Programmer.h"
 
 @interface XZSwizzlingViewController ()
 
@@ -14,19 +16,24 @@
 
 @implementation XZSwizzlingViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.title = @"黑魔法";
+    self.view.backgroundColor = [UIColor whiteColor];
+   
+    //测试代码
+    NSArray *array = @[@0,@1,@2,@3];
+    [array objectAtIndex:3];
+    [array objectAtIndex:4];
+    
+    [Person go];
+    [Person stop];
+    NSLog(@"------");
+    [Programmer go];
+    [Programmer stop];
+    
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

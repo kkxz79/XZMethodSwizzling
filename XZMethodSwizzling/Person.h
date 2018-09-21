@@ -11,7 +11,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Person : NSObject
-
+//静态(类) 方法
++ (void)go;
++ (void)stop;
 @end
 
 NS_ASSUME_NONNULL_END
